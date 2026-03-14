@@ -2,7 +2,13 @@
 
 ## Overview
 
+For a public-friendly presentation of the project's results, click [here](https://storymaps.arcgis.com/stories/775ccf2cc3d840f1ae997d02c38c6ef2).
+
 As of late 2025, Atlanta Public Schools (APS) has decided to close 10 elementary schools by 2027. This geospatial analysis uses Esri ArcGIS to visualize population characteristics of each elementary school zone and highlight areas where closures may disproportionately impact subgroups' reasonable walking access to elementary schools. A significant finding of the project is that, if school closures proceed as planned, an estimated 14,000 Black Atlantans will lose 15-minute walking access to an elementary school, which is 7x the estimated 2,000 white Atlantans projected to lose access. 
+
+### How to Use This Repo
+
+To explore the code and ArcGIS project, download this repository as a zip file onto your local machine. The main ArcGIS project file is `GISProjectAnnaRingwood.aprx`. The R project and `CleaningCensusData.R` file may require changes to path names.
 
 ## Introduction
 
@@ -30,7 +36,7 @@ APS elementary school zone shapefiles were obtained from a contact in Atlanta an
 
 ## Conclusion
 
-This project confirms the fears of Atlanta residents that the schools being closed or repurposed are mostly in predominantly Black areas. It also looks at variables beyond race, including birth rates, household characteristics, accessibility via car and walking, and the surrounding youth population. The project highlights the decreased access to elementary schools among certain populations, specifically areas with high concentrations of Black people, recently-pregnant women, and higher-than-average elementary enrollment. These trends raise concerns regarding equity in the city’s education system, and ultimately leave many questions which warrant further attention. For a public-friendly presentation of the project's results, click [here](https://storymaps.arcgis.com/stories/775ccf2cc3d840f1ae997d02c38c6ef2).
+This project confirms the fears of Atlanta residents that the schools being closed or repurposed are mostly in predominantly Black areas. It also looks at variables beyond race, including birth rates, household characteristics, accessibility via car and walking, and the surrounding youth population. The project highlights the decreased access to elementary schools among certain populations, specifically areas with high concentrations of Black people, recently-pregnant women, and higher-than-average elementary enrollment. These trends raise concerns regarding equity in the city’s education system, and ultimately leave many questions which warrant further attention.
 
 
 ### Future Directions
